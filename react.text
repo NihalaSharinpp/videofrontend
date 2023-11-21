@@ -1,0 +1,60 @@
+
+
+
+REACT ----- js library( it is a front end devolepment techniq)
+----------------------------------
+
+Basic commands 
+
+- to create project: npx create-react-app project-name
+- to run a project: npm start 
+
+Basic concepts
+
+** react mainly used for creating a single page application
+** Reusable component based approach
+** JSX: javascript Xml
+** fast
+
+
+Front end difference
+
+
+concept                angular                    react                                vue
+--------------------------------------------------------------------------------------------------
+1.developer           framework---google         library---meta/facebook           framework-open source
+
+2.Language            typescript                 javascript                        javascript
+
+3.Dom                 real dom                   virtual dom                       virtual dom
+
+4.data sharing       two data binding            one way data binding              two way data binding
+
+**react is a components base application
+
+
+components: create a js file  having a name start with capital letter
+
+                Two types of components
+
+                1.Class based components ---stateful component
+
+                2.Function based components ---stateless component
+
+                react hook---hook is a predefined functions and name start with use keyword
+
+                use predefined-function()
+
+                use state()
+
+
+                **state creaion syntax----
+
+                const[statename,statevalueupdationfunction]=useState() 
+
+
+-> state: state is used to store values (also state has an advantage to transfer values)  ---we can share state to child components
+ 
+-> props: is used to share data between parent and child
+
+-> conditional rendering: 
